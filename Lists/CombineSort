@@ -1,0 +1,8 @@
+# Write your function here
+def combine_sort(myList1,myList2):
+  myCompleteList = myList1+myList2
+  myCompleteList.sort()
+  return myCompleteList
+
+# Uncomment the line below when your function is done
+print(combine_sort([4, 10, 2, 5], [-10, 2, 5, 10]))
